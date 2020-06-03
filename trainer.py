@@ -1,3 +1,10 @@
+#-- Eye Blink Detectory (A Deep Learning Project)--
+# Author      : Umit Aksoylu
+# Date        : 26.05.2020
+# Description : A train script for reconstructing eye images and using for train with VEGA deep learning library
+# Website     : http://umit.space
+# Mail        : umit@aksoylu.space
+# Github      : https://github.com/Aksoylu/Eye-Blink-Detector-Deep-Learning
 import matplotlib.pyplot as plt
 import numpy as np
 import array as arr
