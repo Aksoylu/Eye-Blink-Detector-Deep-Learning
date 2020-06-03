@@ -1,10 +1,10 @@
-#-- Vega 0.1 (Neural Network Library)--
+#-- Eye Blink Detectory (A Deep Learning Project)--
 # Author      : Umit Aksoylu
-# Date        : 26.05.2020
-# Description : Neural Network Library From Scratch
+# Date        : 03.06.2020
+# Description : Eye Blink Detector
 # Website     : http://umit.space
 # Mail        : umit@aksoylu.space
-# Github      : https://github.com/Aksoylu/Vega
+# Github      : https://github.com/Aksoylu/Eye-Blink-Detector-Deep-Learning
 import numpy as np
 import cv2
 import vegav1
@@ -55,7 +55,7 @@ def predict(eyeData):
     LightRate = LightRate / 100
     prediction = neuralNetwork.feedforward(dataToPredict)
     prediction = neuralNetwork.activationSigmoid(prediction)
-     = 0.709 - LightRate
+    ambientLight = 0.709 - LightRate
     #ambientLight =  0.7081
     #print(LightRate)
     #print("Isik=>",ambientLight)
