@@ -1,4 +1,5 @@
 # Göz kırpmasını algılayan yapay zeka projesi
+![AI](https://gblobscdn.gitbook.com/assets%2F-M8qMpTMWhj-s-7KKqGm%2F-M8ureXSf69DComOoO-G%2F-M8url3zHkjVoxWYninQ%2Faga.gif?alt=media&token=374ae17e-5866-474a-8a24-4be2942c50c2)
 
 Projenin yapımında **vegav1** ve **Opencv** kütüphaneleri kullanılmıştır.
 
